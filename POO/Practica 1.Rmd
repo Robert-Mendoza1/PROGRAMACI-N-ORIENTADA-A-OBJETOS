@@ -1,0 +1,55 @@
+---
+title: "Practica 1. Introducción a Objetos, Clases, Atributos y Métodos."
+author: "Jeusus Roberto Mendoza Sanchez"
+date: "`r Sys.Date()`"
+output: word_document
+---
+
+
+## CLASES
+Es una plantilla o molde que define como van aser los objetos.
+Dentro de una clase se define>
+
+	• Atributos: que caracteristicas tendra el objeto.
+	• Metodos: que acciones podra realizar el objeto.
+
+En la practica, una clase es como un diseño o receta que aun  no tiene vida propia,
+Pero sirve para crear objetos.
+
+Ejemplo: 
+la clase carro define que todo caro tendra:marca, modelo y podra encenderse o frenar.
+
+
+
+## OBJETOS
+
+Un objeto es una insatancia concreta de una clase, es decir, cuando el molde (clase)
+Se convierte en algo real.
+Cada objeto tiene sus propios valores para los atributos definidos en la clase.
+Los objetos permiten reprecentar elementos delmundo real dentro de programa.
+
+Ejemplo: un objeto de la clase coche seria mi carro toyota corolla, rojo, 2020.
+
+## METODOS
+
+Es una funcion definida dentro de una clase que describe el comportamiento o acciones que puede realizar un objeto.
+
+	• Los metodos suelen trabajar como atributos del objeto.
+	• Reprecentan la logica del objeto: lo que puede hacer o como interactuan con otros.
+
+Ejemplo:
+En un coche, metodos serian acelerar(),frenar(), encender().
+
+
+## ATRIBUTOS
+
+Es una variable que pertenece a una clase u objeto.
+Sirve para guardar informacion del objeto, como sus caracteristicas o estado actual.
+
+Los atributos pueden ser publicos (accesibles directamente) o privados (solo accesibles dentro de la clase).
+
+Atributos publicos:
+Titular -> el nombre del dueño de la cuenta.
+Ejemplo: Titular: juan perez.
+
+
