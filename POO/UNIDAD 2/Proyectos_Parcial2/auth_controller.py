@@ -15,3 +15,4 @@ def valida_credenciales(usuario, password):
     except Exception as e:
         print(f"Error al validar credenciales: {e}")
     return False
+

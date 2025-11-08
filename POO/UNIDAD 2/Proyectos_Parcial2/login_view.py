@@ -35,9 +35,10 @@ class LoginApp:
             messagebox.showinfo("Datos faltantes", "Por favor ingresa usuario y contraseña.")
             return
 
-        if usuario == "admin" and password == "admin":
+        # SOLO USAR LA VALIDACIÓN DE LA BASE DE DATOS
+        if valida_credenciales(usuario, password):
             messagebox.showinfo("Acceso permitido", f"Bienvenido, {usuario}!")
-            self.root.destroy() 
+            self.root.destroy()
+            DashboardApp(usuario)
         else:
             messagebox.showerror("Acceso denegado", "Tus datos son incorrectos.")
-
